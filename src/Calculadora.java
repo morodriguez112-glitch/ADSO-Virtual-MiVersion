@@ -38,5 +38,8 @@ public class Calculadora
        System.out.println("El resultado de la suma es: "+calculadora.sumar(num1,num2));
        //Se muestra el resultado por pantalla
        JOptionPane.showMessageDialog(null,"El resultado de la suma es: "+calculadora.sumar(num1,num2));
+       JOptionPane.showMessageDialog(null,"El resultado de la resta es: "+calculadora.restar(num1,num2));
+       JOptionPane.showMessageDialog(null,"El resultado de la multiplicacion es: "+calculadora.multiplicar(num1,num2));
+       JOptionPane.showMessageDialog(null,"El resultado de la division es: "+calculadora.dividir(num1,num2));
    }
 }
