@@ -7,6 +7,7 @@ public class Triangulo
     escaleno, es decir, si sus lados son diferentes o rectangulo si dos lados son iguales.
      */
 
+    //metodo triangulo el cual determina el tipo de triangulo
     public void tipoTriangulo(int lado1, int lado2, int lado3)
     {
         if((lado1 == lado2) && (lado2 == lado3))
