@@ -128,7 +128,7 @@ public ArrayList<Usuarios> mostrar()
     ArrayList<Usuarios> listaUsuarios = new ArrayList<>();
     Connection con = conexion.getConexion();
 
-    String query = "SELET * FROM usuarios";
+    String query = "SELECT * FROM usuarios";
 
     try {
         PreparedStatement pst = con.prepareStatement(query);
